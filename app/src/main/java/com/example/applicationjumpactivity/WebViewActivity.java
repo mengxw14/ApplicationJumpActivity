@@ -34,7 +34,7 @@ public class WebViewActivity extends AppCompatActivity {
         webSettings.setJavaScriptCanOpenWindowsAutomatically(true); //支持通过JS打开新窗口
         webSettings.setLoadsImagesAutomatically(true); //支持自动加载图片
         webSettings.setDefaultTextEncodingName("utf-8");//设置编码格式
-        webSettings.setSupportMultipleWindows(true);
+        //webSettings.setSupportMultipleWindows(true);
         web.loadUrl("https://m.douyu.com/1237105/");
         web.setWebViewClient(new WebViewClient(){
             @Override
